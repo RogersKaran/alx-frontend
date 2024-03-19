@@ -13,4 +13,5 @@ https://developer.mozilla.org/en-US/docs/Web/HTML
 https://htmlreference.io/
 https://websitesetup.org/html5-cheat-sheet/
 https://caniuse.com/
+https://github.com/alx-tools/W3C-Validator
 
