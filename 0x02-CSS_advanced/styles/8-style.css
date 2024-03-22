@@ -1,0 +1,11 @@
+/* Define custom line-height properties */
+:root {
+    --line-height-small: 1.2;
+    --line-height-base: 1.5;
+    --line-height-big: 1.8;
+}
+
+/* Set minimum height of line boxes in the body */
+body {
+    line-height: var(--line-height-base); /* Set line-height to line-height-base */
+}
