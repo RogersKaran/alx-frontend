@@ -1,4 +1,4 @@
-/* Target anchor elements with hyperlinks */
+/* Pseudo Classes on anchor elements */
 
 html {
   scroll-behavior: smooth;
@@ -56,22 +56,20 @@ h6 {
 }
 
 a:link {
-    text-decoration: none;
-    color: var(--text-color);
+  color: var(--text-color);
+  text-decoration: none;
 }
 
-/* Target visited state for links */
 a:visited {
-    font-style: italic; 
-
-/* Target hover state for links */
-a:hover {
-    text-decoration: underline; 
+  font-style: italic;
 }
 
-/* Target active state for links */
+a:hover {
+  text-decoration: underline;
+}
+
 a:active {
-    background-color: var(--color-light-grey);
+  background-color: var(--color-light-grey);
 }
 
 .visually-hidden {
